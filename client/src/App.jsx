@@ -1,10 +1,12 @@
-import {
-  PostList,
-} from './components';
+import { Banner } from './sections';
+import GlobalStyle from './assets/styles/global';
 
 function App() {
   return (
-    <PostList />
+    <>
+      <GlobalStyle />
+      <Banner />
+    </>
   );
 }
 
